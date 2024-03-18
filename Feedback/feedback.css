@@ -1,0 +1,128 @@
+
+@import url( 
+'https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+.feedback { 
+	margin: 0;
+	display: flex; 
+	align-items: center; 
+	justify-content: space-around; 
+	flex-direction: column; 
+	height: auto; 
+	background-color: #d0e8f0; 
+	font-family: 'Poppins', sans-serif; 
+
+} 
+.textup { 
+	text-align: center; 
+	color: #616161!important; 
+	font-weight: 700; 
+} 
+
+.feedback i { 
+	margin-right: 3px; 
+} 
+
+.form-box { 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+	background-color: #fff; 
+	box-shadow: 0 0 10px rgba(51, 103, 58, 0.8); 
+	padding: 15px; 
+	border-radius: 8px; 
+	width: 500px; 
+} 
+
+.feedback form { 
+	max-width: 400px; 
+	margin: 0 auto; 
+	padding-bottom: 10px;
+} 
+
+.feedback input[type="radio"] { 
+	margin-right: 8px; 
+} 
+
+.feedback label { 
+	display: block; 
+	margin-bottom: 8px; 
+	font-size: 17px; 
+	color: #616161!important; 
+	font-weight: 600; 
+} 
+
+.feedback input, 
+textarea { 
+	width: 100%; 
+	padding: 8px; 
+	margin-bottom: 12px; 
+	box-sizing: border-box; 
+	border-radius: 10px; 
+
+} 
+
+.submit { 
+	background-color:#2cb381; 
+	color: #fff; 
+	padding: 10px; 
+	border: none; 
+	border-radius: 25px; 
+	cursor: pointer; 
+	width: 100%; 
+	font-size: 15px; 
+	transition: .2s linear; 
+	
+} 
+
+.submit:hover { 
+	background-color:#135243; 
+	border: none; 
+	/* transform: translateY(-10px);  */
+
+}
+
+.feedback h1 { 
+color: #616161; 
+text-align: center;
+font-weight: 800;
+}
+.card {
+    display: inline-block;
+    text-align: center;
+    max-width: 22rem;
+    max-height: 10rem;
+    background: #fff;
+    margin: 0 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+   .card h3{
+    font-size: 15px;
+   }
+  .star {
+    font-size: 5vh;
+    cursor: pointer;
+  }
+   
+  .one {
+    color: rgb(255, 0, 0);
+  }
+   
+  .two {
+    color: rgb(255, 106, 0);
+  }
+   
+  .three {
+    color: rgb(251, 255, 120);
+  }
+   
+  .four {
+    color: rgb(255, 255, 0);
+  }
+   
+  .five {
+    color: rgb(24, 159, 14);
+  }

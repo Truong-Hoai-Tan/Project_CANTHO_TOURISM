@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Điểm Đến</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="../Home/style.css" />
+    <link rel="stylesheet" href="./destination.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+  </head>
+  <body>
+    
+    <div class="row" id="nav-bar">
+      <header>
+       
+        <div class="container-header">
+          <div class="row-content">
+            <select class="me-3 border-0 bg-light">
+              <option value="en-us">EN-US</option>
+            </select>
+            <div class="header-mail">
+              <ion-icon class="icon-headermail" name="mail-outline"></ion-icon>
+              <span>tanb2012139@student.ctu</span>
+            </div>
+            <div class="header-phone">
+              <ion-icon name="call-outline"></ion-icon>
+              <span>0366763613</span>
+            </div>
+            
+          </div>
+        </div>
+        
+        <nav
+          class="navbar navbar-expand-lg bg-white sticky-top navbar-light p-3 shadow-sm"
+        >
+          <div class="container-nav">
+            
+            <a class="navbar-brand" href="index.html">
+              <img src="../img/logo.png" alt="">
+              
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="mx-auto my-3 d-lg-none d-sm-block d-xs-block">
+              <div class="input-group">
+                <span
+                  class="border-warning input-group-text bg-warning text-white"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></span>
+                <input
+                  type="text"
+                  class="form-control border-warning"
+                  style="color: #7a7a7a"
+                />
+                <button class="btn btn-warning text-white">Search</button>
+              </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <div class="ms-auto d-none d-lg-block">
+                <div class="input-group">
+                  <span
+                    class="border-warning input-group-text bg-warning text-white"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control border-warning"
+                    style="color: #7a7a7a"
+                  />
+                  <button class="btn btn-warning text-white">Search</button>
+                </div>
+              </div>
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link mx-2 text-uppercase"
+                    aria-current="page"
+                    href="../Home/index.html"
+                    >TIN TỨC</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2 text-uppercase  active" href="./destination.html">ĐIỂM ĐẾN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2 text-uppercase" href="../Stay/stay.html">LƯU TRÚ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2 text-uppercase" href="../Cuisine/cuisine.html">ẨM THỰC</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2 text-uppercase" href="../Map/map.html">BẢN ĐỒ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2 text-uppercase" href="../Feedback/feedback.html">PHẢN HỒI</a>
+                </li>
+              </ul>
+              <button class="dangnhap">
+                <a href="../Login/login.html">Đăng nhập</a>
+              </button>
+              
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
+
+    <!-- CONTENT-SEARCH -->
+
+    <div class="content-first" >
+      <div class="content-first-item">
+        <div class="content-first-item-1" data-aos="fade-right">
+          <h1>Điểm Đến</h1>
+        </div>
+        <div class="content-first-item-2" data-aos="fade-right">
+          <a href="../Home/index.html">Trang chủ</a>
+          <span>></span>
+          <a href="./destination.html">Điểm đến</a>
+        </div>
+        <div class="content-first-item-3" data-aos="fade-right">
+          <div class="search-form">
+            <div class="search-form-item" id="search-form-item">
+              <i class="fa-solid fa-magnifying-glass" id="search-form-icon"></i>
+            </div>
+            <div class="search-form-item">
+              <input
+                type="text"
+                class="search-form-item-1"
+                id="keyword"
+                value=""
+                placeholder="Tìm kiếm"
+                spellcheck="false"
+                autocomplete="off"
+              />
+            </div>
+            <div class="search-form-item">
+              <select name="price" class="search-form-item-2" id="price_icheck">
+                <option value="">Chi phí</option>
+                <option value="0-0">Miễn phí</option>
+                <option value="1-1000000">Trả phí</option>
+              </select>
+            </div>
+            <div class="search-form-item">
+              <select
+                name="hoteltype"
+                class="search-form-item-3"
+                id="type_icheck"
+              >
+                <option value="">Loại hình du lịch</option>
+                <option value="1">Check in</option>
+                <option value="2">Làng nghề</option>
+                <option value="3">Phổ biến</option>
+                <option value="4">Sinh thái</option>
+                <option value="5">Văn hóa</option>
+              </select>
+            </div>
+            <div class="search-form-item">
+              <select
+                name="hotelservice"
+                class="search-form-item-4"
+                id="service_icheck"
+              >
+                <option value="">Dịch vụ</option>
+                <option value="dv1">Chụp ảnh cưới</option>
+                <option value="dv2">Câu cá giải trí</option>
+                <option value="dv3">Shop lưu niệm</option>
+                <option value="dv4">Thuyết minh lịch sử</option>
+              </select>
+            </div>
+            <div class="search-form-item" id="search-form-item-5">
+              <button class="search-form-item-5" disabled>Tìm kiếm</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTENT-SLIDESHOW -->
+
+    <div class="content-second" >
+      <div data-aos="fade-up">
+        <h1>Những khách sạn phổ biến</h1>
+      </div>
+
+      <div id="gallery" class="carousel slide" data-ride="carousel" data-aos="fade-right">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="1s">
+            <div class="row">
+              <div class="col">
+                <img
+                  class="img-fluid"
+                  src="https://scontent.iocvnpt.com/resources/portal/Images/CTO/superadminportal.cto/KhachSan/Fortuneland/thumb/avt_dongha_637024283929472351.jpg"
+                  alt="Image 1"
+                />
+              </div>
+
+              <div class="col">
+                <img
+                  class="img-fluid"
+                  src="https://scontent.iocvnpt.com/resources/portal/Images/CTO/superadminportal.cto/KhachSan/NinhKieuRiverside/thumb/avt_ninhkieuriver_637025195716355312.jpg"
+                  alt="Image 2"
+                />
+              </div>
+
+              <div class="col">
+                <img
+                  class="img-fluid"
+                  src="https://scontent.iocvnpt.com/resources/portal/Images/CTO/superadminportal.cto/resort/conkhuong/thumb/conkhuong_avatar_637030546123273945.jpg"
+                  alt="Image 3"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col">
+                <img
+                  class="img-fluid"
+                  src="https://scontent.iocvnpt.com/resources/portal/Images/CTO/superadminportal.cto/KhachSan/TTC/thumb/avt_ttc_637025205665925251.jpg"
+                  alt="Image 6"
+                />
+              </div>
+
+              <div class="col">
+                <img
+                  class="img-fluid"
+                  src="https://scontent.iocvnpt.com/resources/portal/Images/CTO/superadminportal.cto/KhachSan/iris/thumb/avt_iris_637031775664918132.jpg"
+                  alt="Image 7"
+                />
+              </div>
+
+              <div class="col">
+                <img
+                  class="img-fluid"
+                  src="http://via.placeholder.com/800x450/f7b801/ffffff?text=Image+8"
+                  alt="Image 8"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a
+          class="carousel-control-prev"
+          href="#gallery"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a
+          class="carousel-control-next"
+          href="#gallery"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <script src="./destination.js"></script>
+
+    <i
+      class="fa-solid fa-circle-up"
+      id="icons_back"
+      onclick="scrollToTop()"
+    ></i>
+    <script src="./main.js"></script>
+  </body>
+  <footer > 
+    <div class="footer-overlay">
+      <div class="footer-container">
+        <div class="social-content">
+          <div class="social">
+            <a href="index.html">
+              <img src="../img/logo.png" alt=""  data-aos="fade-up" data-aos-duration="3000"/>
+            </a>
+            <div class="social-item" data-aos="fade-up" data-aos-duration="3000">
+              <a href="https://www.facebook.com/profile.php?id=100009338526079"
+                ><ion-icon
+                  class="iconfooter icon-fb"
+                  name="logo-facebook"
+                ></ion-icon
+              ></a>
+              <a href="https://www.youtube.com/channel/UCCnuCez_F5b4m7kG8rO2hKA"
+                ><ion-icon
+                  class="iconfooter icon-ytb"
+                  name="logo-youtube"
+                ></ion-icon
+              ></a>
+              <a
+                href="https://www.tiktok.com/@truong0272002?_t=8k6Aj1NP3kG&_r=1"
+                ><ion-icon
+                  class="iconfooter icon-tiktok"
+                  name="logo-tiktok"
+                ></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="information" data-aos="fade-up" data-aos-duration="3000">
+            <p>SỞ VĂN HÓA, THỂ THAO VÀ DU LỊCH THÀNH PHỐ CẦN THƠ</p>
+            <p>Trung tâm phát triển du lịch thành phố Cần Thơ</p>
+            <div class="information-content">
+              <div class="information-items">
+                <div class="information-title">
+                  <ion-icon name="location-outline"></ion-icon>
+                  <p>Địa chỉ</p>
+                </div>
+                <div class="information-details">
+                  <span
+                    >Số 98 Phan Đình Phùng, P Tân An, Q Ninh Kiều, TP. Cần
+                    Thơ</span
+                  >
+                </div>
+              </div>
+              <div class="information-items">
+                <div class="information-title">
+                  <ion-icon name="call-outline"></ion-icon>
+                  <p>Số điện thoại</p>
+                </div>
+                <div class="information-details">
+                  <span>(+84) 366 763 613 - (+84) 347 793 687</span>
+                </div>
+              </div>
+              <div class="information-items">
+                <div class="information-title">
+                  <ion-icon name="mail-outline"></ion-icon>
+                  <p>Email</p>
+                </div>
+                <div class="information-details">
+                  <span>tanb2012139@student.ctu</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="links-content">
+          <div class="links-navbar" data-aos="fade-up" data-aos-duration="3000">
+            <p>LIÊN KẾT</p>
+            <ul>
+              <li>
+                <a href="../Home/index.html">Tin Tức</a>
+              </li>
+              <li>
+                <a href="./destination.html">Điểm Đến</a>
+              </li>
+              <li>
+                <a href="../Stay/stay.html">Lưu Trú</a>
+              </li>
+              <li>
+                <a href="../Cuisine/cuisine.html">Ẩm Thực</a>
+              </li>
+              <li>
+                <a href="../Map/map.html">Bản Đồ</a>
+              </li>
+              <li>
+                <a href="../Feedback/feedback.html">Phản Hồi</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="links-website" data-aos="fade-up" data-aos-duration="3000">
+            <p>LIÊN KẾT WEBSITE </p>
+            <ul>
+              <li>
+                <a href="https://bvhttdl.gov.vn/" target="_blank">Bộ Văn Hóa, Thể Thao và Du Lịch</a>
+              </li>
+              <li>
+                <a href="https://vietnamtourism.gov.vn/" target="_blank">Cục Du lịch Quốc gia Việt Nam</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="access" data-aos="fade-up" data-aos-duration="3000">
+            <p>LƯỢT TRUY CẬP</p>
+            <div class="access-items">
+              <ion-icon name="person-outline"></ion-icon>
+              <span>5.560.874</span>
+            </div>
+            <div class="access-items">
+              <span>Hôm nay</span>
+              <span>14.235</span>
+            </div>
+            <div class="access-items">
+              <span>Tuần này</span>
+              <span>52.369</span>
+            </div>
+            <div class="access-items">
+              <span>Tháng này</span>
+              <span>280.687</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({duration: 2000});
+  </script>
+</html>
